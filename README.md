@@ -17,11 +17,11 @@
 
 ###
 
-<h3 align="left">I am a second year student studying in AMITY UNIVERSITY, RAJASTHAN in BTech IT</h3>
+<h3 align="left">I am a second year student studying in AMITY UNIVERSITY, RAJASTHAN</h3>
 
 ###
 
-<p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
+<p align="left">I'm ... from Delhi <br><br>- 🔭 I’m currently studying<br>- 📚 I'm currently a learning c++<br>- ⚡ In my free time I learn python and play games</p>
 
 ###
 
