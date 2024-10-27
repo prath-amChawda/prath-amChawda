@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **C++, Python, Linux, C, and a little HTML**
 
-- 👨‍💻 All of my projects are available at githib [https://github.com/prath-amChawda?tab=repositories](https://github.com/prath-amChawda?tab=repositories)
+- 👨‍💻 All of my projects are available at github [https://github.com/prath-amChawda?tab=repositories](https://github.com/prath-amChawda?tab=repositories)
 
 - 📫 How to reach me **chawdapratham31@gmail.com**
 
