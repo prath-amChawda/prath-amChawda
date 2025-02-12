@@ -6,7 +6,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prath-amchawda&label=Profile%20views&color=0e75b6&style=flat" alt="prath-amchawda" /> </p>
 
-- 🌱 I’m currently learning **C++, Python, Linux, C, and a little HTML**
+- 🌱 I’m currently learning **C++, Python, Linux, C, HTML, Cyber Security**
 
 - 👨‍💻 All of my projects are available at github [https://github.com/prath-amChawda?tab=repositories](https://github.com/prath-amChawda?tab=repositories)
 
