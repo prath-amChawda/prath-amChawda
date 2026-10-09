@@ -340,7 +340,7 @@
     <!-- Terminal Prompt Line -->
     <g transform="translate(20, 48)" class="font-mono" font-size="13">
       <text x="0" y="0" font-weight="bold">
-        <tspan fill="#3b82f6">vaibhav@developer</tspan><tspan fill="#64748b">:~#</tspan> <tspan fill="#e2f1ff">./profile.sh</tspan>
+        <tspan fill="#3b82f6">pratham@developer</tspan><tspan fill="#64748b">:~#</tspan> <tspan fill="#e2f1ff">./profile.sh</tspan>
       </text>
     </g>
 
@@ -375,7 +375,7 @@
       <!-- Focus -->
       <text x="0" y="125" class="label-cyan">&gt; Focus</text>
       <text x="64" y="125" class="muted-dots">..........................</text>
-      <text x="175" y="125" class="white-text">Cybersecurity and network security</text>
+      <text x="175" y="125" class="white-text">Cybersecurity / Network Security</text>
 
       <!-- Interests -->
       <text x="0" y="147" class="label-cyan">&gt; Interests</text>
@@ -428,7 +428,7 @@
       </g>
       <text x="36" y="40" class="label-cyan">Portfolio</text>
       <text x="110" y="40" class="muted-dots">.....................</text>
-      <text x="175" y="40" class="white-text">prath-amChawda.com</text>
+      <text x="175" y="40" class="white-text">github.com/prath-amChawda</text>
 
       <!-- LinkedIn -->
       <g transform="translate(18, 49)">
@@ -437,7 +437,7 @@
       </g>
       <text x="36" y="59" class="label-cyan">LinkedIn</text>
       <text x="105" y="59" class="muted-dots">......................</text>
-      <text x="175" y="59" class="white-text">linkedin.com/in/prath-amChawda</text>
+      <text x="175" y="59" class="white-text">linkedin.com/in/pratham-chawda-54853527a</text>
 
       <!-- Instagram -->
       <g transform="translate(18, 68)">
@@ -470,7 +470,7 @@
     <!-- Bottom Active Terminal Prompt Line with Blinking Cursor -->
     <g transform="translate(20, 478)" class="font-mono" font-size="12.5">
       <text x="0" y="0">
-        <tspan fill="#3b82f6" font-weight="bold">vaibhav@developer</tspan><tspan fill="#64748b">:~#</tspan>
+        <tspan fill="#3b82f6" font-weight="bold">pratham@developer</tspan><tspan fill="#64748b">:~#</tspan>
       </text>
       <rect x="150" y="-11" width="7.5" height="13" fill="#ffffff" class="cursor-blink"/>
     </g>
