@@ -65,8 +65,6 @@ My current interests sit at the intersection of **cybersecurity, Python automati
 - Implemented secure password generation with Python's `secrets` module and real-time password-strength validation.
 - Added clipboard copying with `pyperclip` and encrypted local vault storage in a binary `passwords.enc` file with a prepended salt.
 
-*Experience titles, dates, and responsibilities above are taken from the two supplied resumes.*
-
 ---
 
 ## 🧩 Featured Projects
