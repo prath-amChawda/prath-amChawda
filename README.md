@@ -1,9 +1,9 @@
 # Hi, I'm Pratham Chawda 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Pratham Chawda — Cybersecurity and Software Development">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg?v=6">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg?v=6">
+  <img src="./dark.svg?v=6" alt="Pratham Chawda — Cybersecurity and Software Development">
 </picture>
 
 <p align="center">
