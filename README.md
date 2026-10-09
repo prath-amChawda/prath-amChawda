@@ -162,11 +162,13 @@ Every repository currently listed on my GitHub account is included below, so you
 
 <h2 align="center">Contribution Activity</h2>
 
+<p align="center">The contribution snake is generated automatically by GitHub Actions. The first run may take a minute or two to publish the images.</p>
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prath-amChawda/github-snake/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prath-amChawda/github-snake/output/github-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/prath-amChawda/github-snake/output/github-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/output/github-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/output/github-snake.svg">
   </picture>
 </p>
 
