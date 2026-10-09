@@ -1,75 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Pratham Chawda cyber security terminal profile">
-<title>Pratham Chawda — Cyberpunk Profile Console</title>
-<desc>Animated neon terminal profile with a dotted portrait silhouette and detailed developer information, inspired by a cyberpunk profile console.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Animated cyberpunk developer profile for Pratham Chawda">
+<title>Pratham Chawda — Cyberpunk README</title>
+<desc>Video-inspired neon console with a dotted portrait wearing glasses, scanning laser, terminal profile, project list and contact links.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03090c"/><stop offset="1" stop-color="#02070b"/></linearGradient>
- <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5e9"/><stop offset=".5" stop-color="#a28aff"/><stop offset="1" stop-color="#00e6a0"/></linearGradient>
- <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#0d5260" stroke-width=".7" opacity=".5"/></pattern>
- <pattern id="portraitDots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.8" cy="1.8" r="1.15" fill="#00f5e9"/><circle cx="4.7" cy="4.7" r=".55" fill="#a28aff" opacity=".85"/></pattern>
- <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <clipPath id="portraitClip"><rect x="57" y="108" width="490" height="410" rx="12"/></clipPath>
- <clipPath id="person"><path d="M185 515 L190 465 Q202 430 239 405 L264 388 L264 363 Q237 344 226 310 L216 274 Q211 234 228 196 Q249 154 294 151 Q339 150 361 191 Q378 222 369 267 L358 311 Q350 345 324 363 L324 389 L353 407 Q398 429 420 465 L428 515 Z"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02070a"/><stop offset="1" stop-color="#030b11"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5f0"/><stop offset=".5" stop-color="#a18bff"/><stop offset="1" stop-color="#00e6a0"/></linearGradient>
+ <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#0b5360" stroke-width=".7" opacity=".45"/></pattern>
+ <pattern id="mesh" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.05" fill="#55e8ff"/><circle cx="4.5" cy="4.5" r=".65" fill="#a18bff" opacity=".85"/></pattern>
+ <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="photoClip"><rect x="48" y="94" width="480" height="493" rx="12"/></clipPath>
+ <clipPath id="headClip"><path d="M180 585 L184 523 Q194 480 234 448 L257 432 L257 397 Q224 370 211 329 L201 282 Q195 231 215 187 Q239 137 292 132 Q344 132 371 177 Q390 213 380 273 L368 330 Q358 372 327 398 L327 432 L359 451 Q411 479 442 523 L448 585 Z"/></clipPath>
 </defs>
 <rect width="1200" height="620" fill="url(#bg)"/>
-<rect x="10" y="10" width="1180" height="600" rx="25" fill="url(#bg)" stroke="url(#neon)" stroke-width="1.4" filter="url(#glow)"/>
-<rect x="11" y="11" width="1178" height="598" rx="24" fill="url(#grid)" opacity=".55"/>
-<!-- moving neon traces in header -->
-<g opacity=".9"><path d="M28 37H1172" stroke="#0d5260"/><path d="M120 28H190 M260 28H310 M385 28H440 M510 28H555 M610 28H660 M710 28H750" stroke="url(#neon)" stroke-width="2"><animate attributeName="opacity" values=".15;1;.15" dur="3.6s" repeatCount="indefinite"/></path></g>
-<circle cx="42" cy="27" r="5.5" fill="#ff5b77"/><circle cx="61" cy="27" r="5.5" fill="#ffc943"/><circle cx="80" cy="27" r="5.5" fill="#00e6a0"/>
-<text x="103" y="31" font-family="Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#00f5e9">prath-amChawda/README.md</text>
-<g font-family="Consolas,monospace" font-size="10" fill="#8ab6c5"><text x="690" y="31">◇ Code</text><text x="757" y="31">⊞ Projects</text><text x="847" y="31">▤ Experience</text><text x="956" y="31">◎ Contact</text></g>
-<!-- left visual map -->
-<rect x="30" y="55" width="500" height="535" rx="15" fill="#001116" stroke="#00f5e9" stroke-opacity=".7" stroke-width="1.2"/>
-<path d="M45 76H160L170 66H222" stroke="#00f5e9" fill="none" stroke-width="1.2"/>
-<text x="47" y="82" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">VISUAL.MAP</text>
-<rect x="57" y="94" width="446" height="424" rx="12" fill="#00141c" stroke="#0d5260" stroke-width="1"/>
-<g clip-path="url(#portraitClip)">
- <rect x="57" y="108" width="490" height="410" fill="url(#portraitDots)" opacity=".7"/>
- <!-- silhouette built from dotted outline and shadow -->
- <path d="M185 515 L190 465 Q202 430 239 405 L264 388 L264 363 Q237 344 226 310 L216 274 Q211 234 228 196 Q249 154 294 151 Q339 150 361 191 Q378 222 369 267 L358 311 Q350 345 324 363 L324 389 L353 407 Q398 429 420 465 L428 515 Z" fill="#00f5e9" opacity=".07"/>
- <g clip-path="url(#person)"><rect x="175" y="140" width="270" height="390" fill="url(#portraitDots)"/><path d="M180 180H440V530H180Z" fill="url(#grid)"/></g>
- <!-- hairstyle, face contour and glasses as neon line art -->
- <path d="M218 264 Q210 217 230 187 Q252 151 294 151 Q336 151 359 190 Q373 217 369 260 L352 231 Q330 221 315 202 Q284 227 232 232Z" fill="#00f5e9" opacity=".24"/>
- <path d="M218 264 Q210 217 230 187 Q252 151 294 151 Q336 151 359 190 Q373 217 369 260" fill="none" stroke="#00f5e9" stroke-width="2.1" opacity=".95"/>
- <path d="M228 270 Q226 310 246 339 Q263 362 294 365 Q325 363 344 337 Q359 311 360 270" fill="none" stroke="#00f5e9" stroke-width="1.8" opacity=".8"/>
- <!-- glasses, unmistakable in the video reference -->
- <g fill="none" stroke="#00f5e9" stroke-width="2.6" filter="url(#glow)">
-  <rect x="228" y="266" width="52" height="36" rx="10"/><rect x="306" y="266" width="52" height="36" rx="10"/><path d="M280 279 Q293 273 306 279 M216 274L228 276 M358 276L370 273"/>
+<rect x="12" y="12" width="1176" height="596" rx="24" fill="url(#bg)" stroke="url(#neon)" stroke-width="1.5" filter="url(#glow)"/>
+<rect x="13" y="13" width="1174" height="594" rx="23" fill="url(#grid)" opacity=".5"/>
+<!-- header/navigation matching the recording -->
+<path d="M14 78H1186" stroke="#0b5360" stroke-width="1"/>
+<circle cx="40" cy="47" r="6" fill="#ff5d79"/><circle cx="60" cy="47" r="6" fill="#ffca45"/><circle cx="80" cy="47" r="6" fill="#00e6a0"/>
+<text x="108" y="51" font-family="Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#00f5f0">prath-amChawda/README.md</text>
+<g font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#83b1c1"><text x="718" y="51">◇ Code</text><text x="790" y="51">⊞ Projects</text><text x="885" y="51">▤ Experience</text><text x="1003" y="51">◎ Contact</text></g>
+<g stroke="url(#neon)" stroke-width="2" opacity=".8"><path d="M142 36H173 M263 36H292 M342 36H375 M432 36H463 M501 36H527"><animate attributeName="opacity" values=".12;1;.12" dur="3.8s" repeatCount="indefinite"/></path></g>
+<!-- left portrait viewport -->
+<rect x="30" y="91" width="500" height="497" rx="16" fill="#001116" stroke="#00f5f0" stroke-opacity=".75" stroke-width="1.1"/>
+<text x="50" y="113" font-family="Consolas,Menlo,monospace" font-size="9.5" letter-spacing="1.8" fill="#00f5f0">VISUAL.MAP</text>
+<path d="M49 126H508" stroke="#0b5360"/>
+<g clip-path="url(#photoClip)">
+ <rect x="48" y="94" width="480" height="493" fill="#00151d"/>
+ <rect x="48" y="94" width="480" height="493" fill="url(#grid)" opacity=".75"/>
+ <!-- upper body and shoulders in dense point-cloud -->
+ <path d="M72 588 L76 535 Q87 489 130 464 L221 421 L251 402 L251 371 Q224 350 211 313 L203 265 Q201 211 225 174 Q250 135 292 136 Q338 136 363 176 Q385 212 376 266 L366 311 Q357 351 327 373 L327 402 L361 422 L453 464 Q496 489 506 535 L510 588Z" fill="url(#mesh)" opacity=".96"/>
+ <g clip-path="url(#headClip)">
+  <rect x="175" y="125" width="285" height="470" fill="url(#mesh)"/>
+  <!-- hair mass and side-lit edges -->
+  <path d="M199 269 Q187 213 216 173 Q243 133 290 132 Q340 129 367 176 Q386 209 378 254 L365 231 Q342 223 326 198 Q292 230 229 231 L211 267Z" fill="#55e8ff" opacity=".22"/>
+  <path d="M199 269 Q187 213 216 173 Q243 133 290 132 Q340 129 367 176 Q386 209 378 254" fill="none" stroke="#55e8ff" stroke-width="2.2" opacity=".9"/>
+  <!-- face silhouette contours are point-cloud, with neon highlights -->
+  <path d="M211 258 Q207 303 228 345 Q248 380 290 385 Q331 380 352 344 Q369 308 367 258" fill="none" stroke="#55e8ff" stroke-width="1.6" opacity=".75"/>
+  <!-- glasses, larger and clear like the video -->
+  <g fill="#001116" fill-opacity=".45" stroke="#55e8ff" stroke-width="2.6" filter="url(#glow)">
+   <rect x="211" y="266" width="70" height="42" rx="11"/><rect x="302" y="266" width="69" height="42" rx="11"/><path d="M281 279 Q292 274 302 279 M198 272L211 276 M371 276L384 270"/>
+  </g>
+  <path d="M233 325 Q255 336 275 326 M307 326 Q328 336 347 324" fill="none" stroke="#a18bff" stroke-width="2" opacity=".85"/>
+  <path d="M267 352 Q291 366 315 351" fill="none" stroke="#55e8ff" stroke-width="2"/>
+  <path d="M246 389 Q291 407 335 389" fill="none" stroke="#55e8ff" stroke-width="1.6" opacity=".75"/>
  </g>
- <path d="M246 319 Q294 331 341 319 M272 348 Q294 357 316 348" fill="none" stroke="#a28aff" stroke-width="2" opacity=".8"/>
- <path d="M57 143H547" stroke="#00f5e9" stroke-width="1.6" opacity=".85"><animate attributeName="y1" values="110;518;110" dur="4.2s" repeatCount="indefinite"/><animate attributeName="y2" values="110;518;110" dur="4.2s" repeatCount="indefinite"/></path>
+ <!-- scan beam moves continuously across portrait -->
+ <rect x="48" y="100" width="480" height="2.5" fill="#00f5f0" opacity=".92" filter="url(#glow)"><animate attributeName="y" values="100;584;100" dur="4s" repeatCount="indefinite"/></rect>
+ <rect x="48" y="94" width="480" height="493" fill="url(#mesh)" opacity=".35"/>
 </g>
-<path d="M77 120H102 M77 120V145 M483 120H458 M483 120V145 M77 496H102 M77 496V471 M483 496H458 M483 496V471" fill="none" stroke="#00f5e9" stroke-width="1.4"/>
-<text x="278" y="550" text-anchor="middle" font-family="Consolas,monospace" font-size="10" letter-spacing="2.5" fill="#00f5e9">CYBERNETIC ID / PRATHAM</text>
-<text x="278" y="573" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#8ab6c5">FACIAL MESH ACTIVE <tspan fill="#00e6a0">● LIVE</tspan></text>
-<!-- right system info -->
-<rect x="548" y="55" width="622" height="535" rx="15" fill="#001116" stroke="#00f5e9" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="570" y="82" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">SYSTEM.INFO</text>
-<text x="1148" y="82" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#00e6a0">● ONLINE</text>
-<text x="571" y="119" font-family="Consolas,monospace" font-size="11" fill="#8ab6c5">pratham@developer:~$ <tspan fill="#e1faff">./profile.sh</tspan><tspan fill="#00e6a0">▌<animate attributeName="opacity" values="1;.1;1" dur="1s" repeatCount="indefinite"/></tspan></text>
-<path d="M570 132H1148" stroke="#0d5260"/>
-<g font-family="Consolas,monospace" font-size="10.5">
- <text x="571" y="157" fill="#00f5e9">› Name</text><text x="735" y="157" fill="#e1faff">Pratham Chawda</text>
- <text x="571" y="181" fill="#00f5e9">› Role</text><text x="735" y="181" fill="#e1faff">B.Tech IT Student · Developer</text>
- <text x="571" y="205" fill="#00f5e9">› Location</text><text x="735" y="205" fill="#e1faff">Rajasthan, India</text>
- <text x="571" y="229" fill="#00f5e9">› Education</text><text x="735" y="229" fill="#e1faff">Amity University Rajasthan</text>
- <text x="571" y="253" fill="#00f5e9">› Focus</text><text x="735" y="253" fill="#e1faff">Cybersecurity · Network Security</text>
- <text x="571" y="277" fill="#00f5e9">› Stack</text><text x="735" y="277" fill="#e1faff">Python, Linux, Nmap, Wireshark, React</text>
- <text x="735" y="292" fill="#e1faff">Node.js, PostgreSQL, JavaScript</text>
- <text x="571" y="316" fill="#00f5e9">› Interests</text><text x="735" y="316" fill="#e1faff">Ethical Hacking, Network Defense, Secure Apps</text>
- <text x="571" y="340" fill="#00f5e9">› Projects</text>
- <text x="591" y="362" fill="#00e6a0">• Network Scanner</text><text x="760" y="362" fill="#8ab6c5">ARP discovery · device and port checks</text>
- <text x="591" y="384" fill="#00e6a0">• Secure File Transfer</text><text x="760" y="384" fill="#8ab6c5">Fernet encryption · key-based decryption</text>
- <text x="591" y="406" fill="#00e6a0">• Muon Tomography</text><text x="760" y="406" fill="#8ab6c5">Python simulation · Three.js dashboard</text>
+<path d="M69 146H94 M69 146V171 M508 146H483 M508 146V171 M69 562H94 M69 562V537 M508 562H483 M508 562V537" fill="none" stroke="#00f5f0" stroke-width="1.4"/>
+<!-- right terminal information -->
+<rect x="548" y="91" width="622" height="497" rx="16" fill="#001116" stroke="#00f5f0" stroke-opacity=".75" stroke-width="1.1"/>
+<text x="570" y="113" font-family="Consolas,Menlo,monospace" font-size="9.5" letter-spacing="1.8" fill="#00f5f0">SYSTEM.INFO</text>
+<text x="1148" y="113" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="8.5" fill="#83b1c1">02 / DEVELOPER SNAPSHOT</text>
+<text x="572" y="145" font-family="Consolas,Menlo,monospace" font-size="10.5" fill="#83b1c1">pratham@developer:~$ <tspan fill="#e1faff">./profile.sh</tspan><tspan fill="#00e6a0">▌<animate attributeName="opacity" values="1;.12;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+<path d="M571 158H1148" stroke="#0b5360"/>
+<g font-family="Consolas,Menlo,monospace" font-size="10">
+ <text x="572" y="181" fill="#00f5f0">› Name</text><text x="630" y="181" fill="#0b5360">........................</text><text x="790" y="181" fill="#e1faff">Pratham Chawda</text>
+ <text x="572" y="203" fill="#00f5f0">› Role</text><text x="630" y="203" fill="#0b5360">.........................</text><text x="790" y="203" fill="#e1faff">B.Tech IT Student</text>
+ <text x="572" y="225" fill="#00f5f0">› Location</text><text x="630" y="225" fill="#0b5360">......................</text><text x="790" y="225" fill="#e1faff">Rajasthan, India</text>
+ <text x="572" y="247" fill="#00f5f0">› Education</text><text x="630" y="247" fill="#0b5360">.....................</text><text x="790" y="247" fill="#e1faff">Amity University Rajasthan</text>
+ <text x="572" y="269" fill="#00f5f0">› Focus</text><text x="630" y="269" fill="#0b5360">........................</text><text x="790" y="269" fill="#e1faff">Cybersecurity / Network Security</text>
 </g>
-<path d="M570 424H1148" stroke="#0d5260"/>
-<text x="571" y="446" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">LINKS / CONNECT</text>
-<g font-family="Consolas,monospace" font-size="10.5">
- <text x="572" y="471" fill="#00e6a0">◎ GitHub</text><text x="735" y="471" fill="#e1faff">github.com/prath-amChawda</text>
- <text x="572" y="495" fill="#00e6a0">◎ LinkedIn</text><text x="735" y="495" fill="#e1faff">linkedin.com/in/pratham-chawda-54853527a</text>
- <text x="572" y="519" fill="#00e6a0">◎ Email</text><text x="735" y="519" fill="#e1faff">chawdapratham31@gmail.com</text>
+<text x="572" y="297" font-family="Consolas,Menlo,monospace" font-size="9.5" letter-spacing="1.4" fill="#00f5f0">› TECH STACK</text>
+<text x="700" y="297" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#e1faff">Python, Linux, Nmap, Wireshark, React</text>
+<text x="700" y="312" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#e1faff">Node.js, PostgreSQL, JavaScript</text>
+<text x="572" y="338" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#00f5f0">› INTERESTS</text>
+<text x="700" y="338" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#e1faff">Ethical Hacking, Network Defense, Secure Apps</text>
+<text x="572" y="365" font-family="Consolas,Menlo,monospace" font-size="9.5" letter-spacing="1.4" fill="#00f5f0">› PROJECTS</text>
+<g font-family="Consolas,Menlo,monospace" font-size="9.2">
+ <text x="590" y="389" fill="#00e6a0">• Network Scanner</text><text x="760" y="389" fill="#83b1c1">ARP discovery / device &amp; port checks</text>
+ <text x="590" y="411" fill="#00e6a0">• Secure File Transfer</text><text x="760" y="411" fill="#83b1c1">Fernet encryption / key-based decryption</text>
+ <text x="590" y="433" fill="#00e6a0">• Muon Tomography</text><text x="760" y="433" fill="#83b1c1">Python simulation / Three.js dashboard</text>
 </g>
-<text x="571" y="562" font-family="Consolas,monospace" font-size="10" fill="#00f5e9">pratham@developer:~$ <tspan fill="#00e6a0">█<animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></tspan></text>
-<text x="1148" y="562" text-anchor="end" font-family="Consolas,monospace" font-size="8.5" fill="#8ab6c5">PROFILE / CYBERSECURITY</text>
-<g fill="#00f5e9" opacity=".9"><circle cx="533" cy="128" r="1.6"><animate attributeName="cy" values="128;145;128" dur="4s" repeatCount="indefinite"/></circle><circle cx="1158" cy="154" r="1.5"><animate attributeName="opacity" values=".1;1;.1" dur="2.7s" repeatCount="indefinite"/></circle></g>
+<path d="M571 451H1148" stroke="#0b5360"/>
+<text x="572" y="472" font-family="Consolas,Menlo,monospace" font-size="9.5" letter-spacing="1.5" fill="#00f5f0">› LINKS</text>
+<g font-family="Consolas,Menlo,monospace" font-size="9.5">
+ <text x="590" y="493" fill="#00e6a0">◉ GitHub</text><text x="700" y="493" fill="#e1faff">github.com/prath-amChawda</text>
+ <text x="590" y="513" fill="#00e6a0">◎ LinkedIn</text><text x="700" y="513" fill="#e1faff">linkedin.com/in/pratham-chawda</text>
+ <text x="590" y="533" fill="#00e6a0">✉ Email</text><text x="700" y="533" fill="#e1faff">chawdapratham31@gmail.com</text>
+</g>
+<text x="572" y="565" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#00f5f0">pratham@developer:~$ <tspan fill="#00e6a0">█<animate attributeName="opacity" values="1;.1;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+<text x="1148" y="565" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="8.5" fill="#83b1c1">PROFILE / CYBERSECURITY</text>
+<!-- floating HUD points -->
+<g fill="#00f5f0"><circle cx="535" cy="128" r="1.5"><animate attributeName="cy" values="128;144;128" dur="4s" repeatCount="indefinite"/></circle><circle cx="1157" cy="145" r="1.5"><animate attributeName="opacity" values=".1;1;.1" dur="2.8s" repeatCount="indefinite"/></circle></g>
 </svg>
