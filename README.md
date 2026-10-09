@@ -1,9 +1,9 @@
 # Hi, I'm Pratham Chawda 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/main/dark.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/main/light.svg?v=5">
-  <img src="https://raw.githubusercontent.com/prath-amChawda/prath-amChawda/main/dark.svg?v=5" alt="Pratham Chawda — Cybersecurity and Software Development">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" alt="Pratham Chawda — Cybersecurity and Software Development">
 </picture>
 
 <p align="center">
