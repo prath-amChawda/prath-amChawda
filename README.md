@@ -1,29 +1,73 @@
-<h1 align="center">Hi 👋, I'm Pratham chawda</h1>
-<h3 align="center">I am devoloping my skills</h3>
-<!-- <img class="media_gif__MBeQG" style="aspect-ratio:480" src="https://i.giphy.com/2IudUHdI075HL02Pkk.webp" alt="" width="480"> -->
-<!-- <img align="right" alt="coding" width="400" src="https://github.com/user-attachments/assets/d05f61ac-dad9-4c59-aa0b-24886e102e69"> -->
-<img align="right" alt="coding" width="400" src="https://www.lambdatest.com/resources/images/news24.gif/">
+<!-- Premium profile README for prath-amChawda. Keep README.md, dark.svg, and light.svg in this repository. -->
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=prath-amchawda&label=Profile%20views&color=0e75b6&style=flat" alt="prath-amchawda" /> </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Pratham Chawda — cybersecurity-focused developer and IT student" src="./dark.svg" width="100%">
+</picture>
 
-- 🌱 I’m currently learning **C++, Python, Linux, C, HTML, Cyber Security**
-
-- 👨‍💻 All of my projects are available at github [https://github.com/prath-amChawda?tab=repositories](https://github.com/prath-amChawda?tab=repositories)
-
-- 📫 How to reach me **chawdapratham31@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/pratham chawda" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pratham chawda" height="30" width="40" /></a>
-<a href="https://fb.com/pratham chawda" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="pratham chawda" height="30" width="40" /></a>
-<a href="https://instagram.com/pr_atham865" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pr_atham865" height="30" width="40" /></a>
+<h1 align="center">Hi, I'm Pratham Chawda 👋</h1>
+<p align="center">
+  <strong>Cybersecurity · Python · Software Development</strong><br>
+  B.Tech Information Technology student at Amity University Rajasthan
+</p>
+<p align="center">
+  <a href="https://github.com/prath-amChawda">GitHub</a> ·
+  <a href="mailto:chawdapratham31@gmail.com">Email me</a> ·
+  <a href="https://github.com/prath-amChawda?tab=repositories">Explore my repositories</a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=prath-amchawda&show_icons=true&locale=en&layout=compact" alt="prath-amchawda" /></p>
+## About me
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=prath-amchawda&show_icons=true&locale=en" alt="prath-amchawda" /></p>
+- 🎓 Pursuing a B.Tech in Information Technology at **Amity University Rajasthan**
+- 🛡️ Interested in **cybersecurity, ethical hacking, and network security**
+- 💻 Developing skills in Python, C/C++, Linux, and web technologies
+- 🔎 Learning through hands-on projects, coding practice, and security labs
+- 🤝 RAIOT Club — Amity University Rajasthan
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prath-amchawda&" alt="prath-amchawda" /></p>
+## Current focus
+
+- Cybersecurity fundamentals and ethical hacking
+- Network reconnaissance and analysis
+- Python programming and automation
+- Building practical software and web applications
+
+## Tech stack
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img alt="Kali_Linux" src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
+</p>
+
+## Projects & practice
+
+Browse the repositories for my hands-on work:
+- [Python](https://github.com/prath-amChawda?tab=repositories&q=python)
+- [Arduino](https://github.com/prath-amChawda?tab=repositories&q=arduino)
+- [C++](https://github.com/prath-amChawda?tab=repositories&q=Cpp)
+- [C](https://github.com/prath-amChawda?tab=repositories&q=C)
+- [HTML](https://github.com/prath-amChawda?tab=repositories&q=html)
+
+## Certifications
+
+- Complete Ethical Hacking Course — Udemy
+- Introduction to Cyber Security — Cisco
+
+## Connect
+
+- **GitHub:** [@prath-amChawda](https://github.com/prath-amChawda)
+- **Email:** [chawdapratham31@gmail.com](mailto:chawdapratham31@gmail.com)
+
+---
+
+<p align="center"><sub>Learning continuously · Building responsibly · Exploring security</sub></p>
