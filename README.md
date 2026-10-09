@@ -33,17 +33,39 @@ My current interests sit at the intersection of **cybersecurity, Python automati
 
 ---
 
-## 💼 Experience & Learning
+## 💼 Experience
 
-### Cybersecurity and Software Development Internships
+### Summer R&D Intern — Variable Energy Cyclotron Centre (VECC)
+*Kolkata · June 2026 – July 2026*
 
-I've undertaken internship experiences with **Ediglobe** and **Cognifyz Technology**, alongside independent programming and cybersecurity projects.
+- Developed a Python simulation engine with **NumPy and SciPy** for cosmic-muon generation, trajectory tracking, and particle-scattering calculations.
+- Modeled detector geometry, scintillating-fiber arrays, and Multi-Anode Photomultiplier Tubes (MAPMTs) for optical-hit detection.
+- Implemented 3D reconstruction concepts using **Multiple Coulomb Scattering (MCS)** calculations.
+- Built an interactive **HTML5, CSS3, and JavaScript** dashboard to visualize 3D muon paths and detector response events.
 
-- Practiced problem-solving and implementation through hands-on tasks
-- Built and refined programming projects
-- Continued developing practical software and technical skills
+### SOC Analyst Intern — Elevance Skills
+*Virtual · June 2026 – July 2026*
 
-*This section intentionally avoids dates or responsibilities that aren't confirmed here.*
+- Worked with system and network security logs, alert dashboards, detection rules, and incident reporting.
+- Worked on SIEM detection and correlation rules mapped to the **MITRE ATT&CK** framework.
+- Built dashboards to visualize event telemetry and prioritize high-severity alerts.
+- Practiced threat analysis, attack-surface assessment, and structured incident reporting.
+
+### Network Scanner Intern — Codec Technologies
+*Hybrid · June 2025 – July 2025*
+
+- Built a Python network scanner using **Scapy** and ARP to discover active devices on a local network.
+- Retrieved IP addresses, MAC addresses, and hostnames using socket-based hostname resolution.
+- Implemented TCP port scanning for ports **1–1024**, with timeout handling for closed or inaccessible ports.
+
+### Secure Pass-Manager Intern — Ediglobe
+*Hybrid · November 2024 – December 2024*
+
+- Built a **Tkinter** desktop GUI with add, view, generate, and breach-check functionality.
+- Implemented secure password generation with Python's `secrets` module and real-time password-strength validation.
+- Added clipboard copying with `pyperclip` and encrypted local vault storage in a binary `passwords.enc` file with a prepended salt.
+
+*Experience titles, dates, and responsibilities above are taken from the two supplied resumes.*
 
 ---
 
@@ -69,6 +91,14 @@ A GUI-based project focused on encrypting and decrypting files.
 - Fernet-based cryptography
 - Key-based handling
 - **Python · Tkinter · Cryptography**
+
+### 🔑 Secure Pass-Manager
+*A desktop credential manager developed during the Ediglobe internship.*
+
+- Add, view, and generate passwords, with password-strength checks and breach-check functionality.
+- Used Python's `secrets` module for cryptographically secure password generation.
+- Encrypted local vault storage, plus one-click clipboard copying with `pyperclip`.
+- **Python · Tkinter · Cryptography · pyperclip**
 
 ### 🌌 Muon Tomography
 [GitHub Repository](https://github.com/prath-amChawda/muon-tomography)
@@ -103,10 +133,10 @@ A collection of Arduino and embedded-programming work.
 ## 🛠️ Engineering Stack
 
 ### 🛡️ Cybersecurity & Networking
-`Kali Linux` `Nmap` `Network Scanning` `Wireshark` `Ethical Hacking Fundamentals` `Secure File Handling`
+`Kali Linux` `Linux` `Nmap` `Wireshark` `Scapy` `ARP Discovery` `TCP Port Scanning` `Raw Sockets` `Socket Programming` `Packet Analysis` `SIEM & Log Analysis` `SOC Operations` `MITRE ATT&CK` `Threat Analysis` `Incident Response & Reporting` `Attack Surface Assessment` `Cryptography Basics`
 
 ### 🐍 Programming
-`Python` `C` `C++` `Java` `JavaScript`
+`Python` `JavaScript` `SQL Fundamentals` `C` `C++` `Java` `NumPy` `SciPy` `Tkinter` `HTML5` `CSS3` `pyperclip`
 
 ### 🌐 Frontend
 `HTML` `CSS` `React` `Next.js` `Bootstrap` `Tailwind CSS`
@@ -125,10 +155,23 @@ A collection of Arduino and embedded-programming work.
 
 ---
 
-## 📚 Certifications
+## 📚 Certifications & Training
 
-- **Complete Ethical Hacking Course** — Udemy
 - **Introduction to Cyber Security** — Cisco
+- **Ethical Hacking Basics** — Cisco
+- **Complete Ethical Hacking Course** — Udemy
+- **Cyber Security Internship Training** — Ediglobe
+- **SOC Analyst Training** — Elevance Skills
+- **Cyber Security Internship Training** — Codec Technologies
+- **R&D Internship** — Variable Energy Cyclotron Centre (VECC)
+
+---
+
+## 🏆 Competitions & Activities
+
+- **CTF Participant** — Cognizance techno-cultural fest, IIT Roorkee · April 2025
+- **CTF Participant** — Prometeo techno-cultural fest, IIT Jodhpur · 2025
+- **Hackathon Participant** — Whack Hackathon 3.0, Amity University Rajasthan (IEEE) · 26–27 November 2024
 
 ---
 
