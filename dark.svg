@@ -1,75 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Pratham Chawda profile console">
-<title>Pratham Chawda — Profile Console</title>
-<desc>Neon cyber security developer profile, cyan dotted portrait and system information dashboard.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Pratham Chawda cyber security terminal profile">
+<title>Pratham Chawda — Cyberpunk Profile Console</title>
+<desc>Animated neon terminal profile with a dotted portrait silhouette and detailed developer information, inspired by a cyberpunk profile console.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030a12"/><stop offset="1" stop-color="#0a0e20"/></linearGradient>
- <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5f1"/><stop offset=".5" stop-color="#9b75ff"/><stop offset="1" stop-color="#00e6a0"/></linearGradient>
- <linearGradient id="portrait" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5f1"/><stop offset=".48" stop-color="#9b75ff"/><stop offset="1" stop-color="#00f5f1"/></linearGradient>
- <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#164251" stroke-width=".7" opacity=".62"/></pattern>
- <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#00f5f1"/><circle cx="5.5" cy="5.5" r=".7" fill="#9b75ff" opacity=".85"/></pattern>
- <pattern id="hscan" width="4" height="5" patternUnits="userSpaceOnUse"><path d="M0 4.5H4" stroke="#00f5f1" stroke-opacity=".24"/></pattern>
- <filter id="glow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <clipPath id="portraitClip"><path d="M190 264 C181 238 186 198 200 170 C214 142 241 127 269 128 C303 127 329 149 340 178 C350 204 349 239 340 268 L327 317 C323 337 310 355 293 367 L293 389 C321 403 358 421 388 441 C416 461 431 490 433 528 L433 548 L98 548 L98 523 C101 488 119 459 147 441 C177 422 211 405 239 389 L239 367 C220 352 208 334 203 313Z"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03090c"/><stop offset="1" stop-color="#02070b"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5e9"/><stop offset=".5" stop-color="#a28aff"/><stop offset="1" stop-color="#00e6a0"/></linearGradient>
+ <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#0d5260" stroke-width=".7" opacity=".5"/></pattern>
+ <pattern id="portraitDots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.8" cy="1.8" r="1.15" fill="#00f5e9"/><circle cx="4.7" cy="4.7" r=".55" fill="#a28aff" opacity=".85"/></pattern>
+ <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="portraitClip"><rect x="57" y="108" width="490" height="410" rx="12"/></clipPath>
+ <clipPath id="person"><path d="M185 515 L190 465 Q202 430 239 405 L264 388 L264 363 Q237 344 226 310 L216 274 Q211 234 228 196 Q249 154 294 151 Q339 150 361 191 Q378 222 369 267 L358 311 Q350 345 324 363 L324 389 L353 407 Q398 429 420 465 L428 515 Z"/></clipPath>
 </defs>
-<rect width="1280" height="720" fill="#080d14"/>
-<rect x="12" y="12" width="1256" height="696" rx="28" fill="url(#bg)"/>
-<rect x="25" y="25" width="1230" height="670" rx="26" fill="none" stroke="url(#neon)" stroke-width="1.8" filter="url(#glow)"/>
-<rect x="26" y="26" width="1228" height="668" rx="25" fill="url(#grid)" opacity=".72"/>
-<path d="M26 93H1254" stroke="#164251" stroke-width="1.2"/>
-<circle cx="55" cy="68" r="6.5" fill="#ff5977"/><circle cx="76" cy="68" r="6.5" fill="#ffca45"/><circle cx="97" cy="68" r="6.5" fill="#00e6a0"/>
-<text x="126" y="73" font-family="Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#00f5f1">prath-amChawda / profile.console</text>
-<text x="1154" y="73" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#00e6a0">● SYSTEM READY</text>
-<!-- left profile panel -->
-<rect x="46" y="111" width="552" height="554" rx="19" fill="#03131e" stroke="#00f5f1" stroke-opacity=".65" stroke-width="1.1"/>
-<path d="M63 136H212L224 125H309" fill="none" stroke="#00f5f1" stroke-width="1.4"/>
-<text x="65" y="143" font-family="Consolas,monospace" font-size="10.5" letter-spacing="1.5" fill="#00f5f1">VISUAL.MAP</text>
-<text x="575" y="143" text-anchor="end" font-family="Consolas,monospace" font-size="8.5" fill="#8bb7c9">01 / PROFILE</text>
-<rect x="67" y="159" width="510" height="390" rx="14" fill="#061722" stroke="#164251" stroke-opacity=".85"/>
-<!-- dotted human portrait: head, neck and shoulders -->
+<rect width="1200" height="620" fill="url(#bg)"/>
+<rect x="10" y="10" width="1180" height="600" rx="25" fill="url(#bg)" stroke="url(#neon)" stroke-width="1.4" filter="url(#glow)"/>
+<rect x="11" y="11" width="1178" height="598" rx="24" fill="url(#grid)" opacity=".55"/>
+<!-- moving neon traces in header -->
+<g opacity=".9"><path d="M28 37H1172" stroke="#0d5260"/><path d="M120 28H190 M260 28H310 M385 28H440 M510 28H555 M610 28H660 M710 28H750" stroke="url(#neon)" stroke-width="2"><animate attributeName="opacity" values=".15;1;.15" dur="3.6s" repeatCount="indefinite"/></path></g>
+<circle cx="42" cy="27" r="5.5" fill="#ff5b77"/><circle cx="61" cy="27" r="5.5" fill="#ffc943"/><circle cx="80" cy="27" r="5.5" fill="#00e6a0"/>
+<text x="103" y="31" font-family="Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#00f5e9">prath-amChawda/README.md</text>
+<g font-family="Consolas,monospace" font-size="10" fill="#8ab6c5"><text x="690" y="31">◇ Code</text><text x="757" y="31">⊞ Projects</text><text x="847" y="31">▤ Experience</text><text x="956" y="31">◎ Contact</text></g>
+<!-- left visual map -->
+<rect x="30" y="55" width="500" height="535" rx="15" fill="#001116" stroke="#00f5e9" stroke-opacity=".7" stroke-width="1.2"/>
+<path d="M45 76H160L170 66H222" stroke="#00f5e9" fill="none" stroke-width="1.2"/>
+<text x="47" y="82" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">VISUAL.MAP</text>
+<rect x="57" y="94" width="446" height="424" rx="12" fill="#00141c" stroke="#0d5260" stroke-width="1"/>
 <g clip-path="url(#portraitClip)">
- <rect x="80" y="120" width="380" height="440" fill="url(#dots)"/>
- <path d="M194 264 C183 237 188 196 204 168 C220 141 244 128 270 130 C304 129 330 151 340 180 C350 207 347 241 338 268 L326 316 C322 339 309 355 292 367 L292 388 C322 403 358 420 388 442 C416 462 431 490 433 528 L433 548 L98 548 L98 523 C101 488 119 459 147 441 C177 422 211 405 239 389 L239 367 C220 352 208 334 203 313Z" fill="url(#portrait)" opacity=".19"/>
- <path d="M192 267 C187 224 191 179 222 151 C244 131 273 127 297 139 C326 153 340 184 342 217 L334 257 L318 228 Q300 217 291 199 Q260 225 212 230Z" fill="url(#portrait)" opacity=".75"/>
- <path d="M193 267 C201 242 214 229 233 229 Q269 236 304 207 Q322 225 339 258" fill="none" stroke="#00f5f1" stroke-width="2.2" opacity=".75"/>
- <path d="M201 282 Q215 266 232 282 M302 282 Q319 266 334 282" fill="none" stroke="#00f5f1" stroke-width="3" opacity=".95"/>
- <path d="M213 297 Q231 307 248 298 M280 298 Q298 307 318 297" fill="none" stroke="#9b75ff" stroke-width="3"/>
- <path d="M250 324 Q267 335 286 323" fill="none" stroke="#00f5f1" stroke-width="2.4"/>
- <path d="M235 347 Q267 362 299 347" fill="none" stroke="#00f5f1" stroke-width="1.4" opacity=".7"/>
- <rect x="80" y="120" width="380" height="440" fill="url(#hscan)"/>
- <rect x="80" y="160" width="380" height="3" fill="#00f5f1" opacity=".85" filter="url(#glow)"><animate attributeName="y" values="160;545;160" dur="4.5s" repeatCount="indefinite"/></rect>
+ <rect x="57" y="108" width="490" height="410" fill="url(#portraitDots)" opacity=".7"/>
+ <!-- silhouette built from dotted outline and shadow -->
+ <path d="M185 515 L190 465 Q202 430 239 405 L264 388 L264 363 Q237 344 226 310 L216 274 Q211 234 228 196 Q249 154 294 151 Q339 150 361 191 Q378 222 369 267 L358 311 Q350 345 324 363 L324 389 L353 407 Q398 429 420 465 L428 515 Z" fill="#00f5e9" opacity=".07"/>
+ <g clip-path="url(#person)"><rect x="175" y="140" width="270" height="390" fill="url(#portraitDots)"/><path d="M180 180H440V530H180Z" fill="url(#grid)"/></g>
+ <!-- hairstyle, face contour and glasses as neon line art -->
+ <path d="M218 264 Q210 217 230 187 Q252 151 294 151 Q336 151 359 190 Q373 217 369 260 L352 231 Q330 221 315 202 Q284 227 232 232Z" fill="#00f5e9" opacity=".24"/>
+ <path d="M218 264 Q210 217 230 187 Q252 151 294 151 Q336 151 359 190 Q373 217 369 260" fill="none" stroke="#00f5e9" stroke-width="2.1" opacity=".95"/>
+ <path d="M228 270 Q226 310 246 339 Q263 362 294 365 Q325 363 344 337 Q359 311 360 270" fill="none" stroke="#00f5e9" stroke-width="1.8" opacity=".8"/>
+ <!-- glasses, unmistakable in the video reference -->
+ <g fill="none" stroke="#00f5e9" stroke-width="2.6" filter="url(#glow)">
+  <rect x="228" y="266" width="52" height="36" rx="10"/><rect x="306" y="266" width="52" height="36" rx="10"/><path d="M280 279 Q293 273 306 279 M216 274L228 276 M358 276L370 273"/>
+ </g>
+ <path d="M246 319 Q294 331 341 319 M272 348 Q294 357 316 348" fill="none" stroke="#a28aff" stroke-width="2" opacity=".8"/>
+ <path d="M57 143H547" stroke="#00f5e9" stroke-width="1.6" opacity=".85"><animate attributeName="y1" values="110;518;110" dur="4.2s" repeatCount="indefinite"/><animate attributeName="y2" values="110;518;110" dur="4.2s" repeatCount="indefinite"/></path>
 </g>
-<path d="M88 185H115 M88 185V212 M555 185H528 M555 185V212 M88 522H115 M88 522V495 M555 522H528 M555 522V495" fill="none" stroke="#00f5f1" stroke-width="1.5"/>
-<text x="322" y="572" text-anchor="middle" font-family="Consolas,monospace" font-size="9.5" letter-spacing="3" fill="#8bb7c9">ASCII / CHARACTER RENDER</text>
-<text x="322" y="607" text-anchor="middle" font-family="Consolas,monospace" font-size="22" font-weight="700" fill="#f1fbff">Pratham Chawda</text>
-<text x="322" y="633" text-anchor="middle" font-family="Consolas,monospace" font-size="11.5" fill="#00f5f1">Cybersecurity · Software Development</text>
-<text x="322" y="653" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#00e6a0">~/profile $ learn --build --secure</text>
-<!-- right info panel -->
-<rect x="618" y="111" width="605" height="554" rx="19" fill="#03131e" stroke="#00f5f1" stroke-opacity=".65" stroke-width="1.1"/>
-<text x="641" y="143" font-family="Consolas,monospace" font-size="10.5" letter-spacing="1.5" fill="#9b75ff">SYSTEM.INFO</text>
-<text x="1197" y="143" text-anchor="end" font-family="Consolas,monospace" font-size="8.5" fill="#8bb7c9">02 / DEVELOPER SNAPSHOT</text>
-<text x="644" y="185" font-family="Consolas,monospace" font-size="12" fill="#8bb7c9">$ cat profile.json <tspan fill="#00e6a0">▌<animate attributeName="opacity" values="1;.15;1" dur="1s" repeatCount="indefinite"/></tspan></text>
-<path d="M644 200H1196" stroke="#164251" stroke-width="1"/>
-<g font-family="Consolas,Menlo,monospace" font-size="11.5">
- <text x="646" y="230" fill="#00f5f1">NAME</text><text x="769" y="230" fill="#f1fbff" font-weight="700">Pratham Chawda</text>
- <text x="646" y="259" fill="#00f5f1">ROLE</text><text x="769" y="259" fill="#f1fbff">B.Tech IT Student · Developer</text>
- <text x="646" y="288" fill="#00f5f1">EDUCATION</text><text x="769" y="288" fill="#f1fbff">Amity University Rajasthan</text>
- <text x="646" y="317" fill="#00f5f1">FOCUS</text><text x="769" y="317" fill="#f1fbff">Cybersecurity · Network Security</text>
+<path d="M77 120H102 M77 120V145 M483 120H458 M483 120V145 M77 496H102 M77 496V471 M483 496H458 M483 496V471" fill="none" stroke="#00f5e9" stroke-width="1.4"/>
+<text x="278" y="550" text-anchor="middle" font-family="Consolas,monospace" font-size="10" letter-spacing="2.5" fill="#00f5e9">CYBERNETIC ID / PRATHAM</text>
+<text x="278" y="573" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#8ab6c5">FACIAL MESH ACTIVE <tspan fill="#00e6a0">● LIVE</tspan></text>
+<!-- right system info -->
+<rect x="548" y="55" width="622" height="535" rx="15" fill="#001116" stroke="#00f5e9" stroke-opacity=".7" stroke-width="1.2"/>
+<text x="570" y="82" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">SYSTEM.INFO</text>
+<text x="1148" y="82" text-anchor="end" font-family="Consolas,monospace" font-size="9" fill="#00e6a0">● ONLINE</text>
+<text x="571" y="119" font-family="Consolas,monospace" font-size="11" fill="#8ab6c5">pratham@developer:~$ <tspan fill="#e1faff">./profile.sh</tspan><tspan fill="#00e6a0">▌<animate attributeName="opacity" values="1;.1;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+<path d="M570 132H1148" stroke="#0d5260"/>
+<g font-family="Consolas,monospace" font-size="10.5">
+ <text x="571" y="157" fill="#00f5e9">› Name</text><text x="735" y="157" fill="#e1faff">Pratham Chawda</text>
+ <text x="571" y="181" fill="#00f5e9">› Role</text><text x="735" y="181" fill="#e1faff">B.Tech IT Student · Developer</text>
+ <text x="571" y="205" fill="#00f5e9">› Location</text><text x="735" y="205" fill="#e1faff">Rajasthan, India</text>
+ <text x="571" y="229" fill="#00f5e9">› Education</text><text x="735" y="229" fill="#e1faff">Amity University Rajasthan</text>
+ <text x="571" y="253" fill="#00f5e9">› Focus</text><text x="735" y="253" fill="#e1faff">Cybersecurity · Network Security</text>
+ <text x="571" y="277" fill="#00f5e9">› Stack</text><text x="735" y="277" fill="#e1faff">Python, Linux, Nmap, Wireshark, React</text>
+ <text x="735" y="292" fill="#e1faff">Node.js, PostgreSQL, JavaScript</text>
+ <text x="571" y="316" fill="#00f5e9">› Interests</text><text x="735" y="316" fill="#e1faff">Ethical Hacking, Network Defense, Secure Apps</text>
+ <text x="571" y="340" fill="#00f5e9">› Projects</text>
+ <text x="591" y="362" fill="#00e6a0">• Network Scanner</text><text x="760" y="362" fill="#8ab6c5">ARP discovery · device and port checks</text>
+ <text x="591" y="384" fill="#00e6a0">• Secure File Transfer</text><text x="760" y="384" fill="#8ab6c5">Fernet encryption · key-based decryption</text>
+ <text x="591" y="406" fill="#00e6a0">• Muon Tomography</text><text x="760" y="406" fill="#8ab6c5">Python simulation · Three.js dashboard</text>
 </g>
-<text x="646" y="350" font-family="Consolas,monospace" font-size="9.5" letter-spacing="2" fill="#9b75ff">TECH TOOLKIT</text>
-<g font-family="Consolas,monospace" font-size="9.5" text-anchor="middle">
- <g fill="#061722" stroke="#00f5f1" stroke-width="1"><rect x="646" y="362" width="86" height="29" rx="9"/><rect x="741" y="362" width="71" height="29" rx="9"/><rect x="821" y="362" width="70" height="29" rx="9"/><rect x="900" y="362" width="91" height="29" rx="9"/><rect x="1000" y="362" width="72" height="29" rx="9"/><rect x="1081" y="362" width="94" height="29" rx="9"/></g>
- <g fill="#f1fbff"><text x="689" y="380">Python</text><text x="776" y="380">Linux</text><text x="856" y="380">Nmap</text><text x="945" y="380">Wireshark</text><text x="1036" y="380">React</text><text x="1128" y="380">Node.js</text></g>
+<path d="M570 424H1148" stroke="#0d5260"/>
+<text x="571" y="446" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#00f5e9">LINKS / CONNECT</text>
+<g font-family="Consolas,monospace" font-size="10.5">
+ <text x="572" y="471" fill="#00e6a0">◎ GitHub</text><text x="735" y="471" fill="#e1faff">github.com/prath-amChawda</text>
+ <text x="572" y="495" fill="#00e6a0">◎ LinkedIn</text><text x="735" y="495" fill="#e1faff">linkedin.com/in/pratham-chawda-54853527a</text>
+ <text x="572" y="519" fill="#00e6a0">◎ Email</text><text x="735" y="519" fill="#e1faff">chawdapratham31@gmail.com</text>
 </g>
-<text x="646" y="420" font-family="Consolas,monospace" font-size="9.5" letter-spacing="2" fill="#9b75ff">PROJECT SPOTLIGHT</text>
-<g font-family="Consolas,monospace">
- <rect x="646" y="431" width="550" height="56" rx="10" fill="#061722" stroke="#164251"/><rect x="646" y="431" width="3" height="56" rx="1.5" fill="#00f5f1"/>
- <text x="664" y="454" font-size="11.5" font-weight="700" fill="#f1fbff">Network Scanner using Python</text><text x="664" y="473" font-size="9.5" fill="#8bb7c9">ARP discovery · device details · port checks</text>
- <rect x="646" y="497" width="550" height="56" rx="10" fill="#061722" stroke="#164251"/><rect x="646" y="497" width="3" height="56" rx="1.5" fill="#9b75ff"/>
- <text x="664" y="520" font-size="11.5" font-weight="700" fill="#f1fbff">Secure File Transfer</text><text x="664" y="539" font-size="9.5" fill="#8bb7c9">GUI · Fernet encryption · key-based decryption</text>
- <rect x="646" y="563" width="550" height="56" rx="10" fill="#061722" stroke="#164251"/><rect x="646" y="563" width="3" height="56" rx="1.5" fill="#00e6a0"/>
- <text x="664" y="586" font-size="11.5" font-weight="700" fill="#f1fbff">Muon Tomography Simulation</text><text x="664" y="605" font-size="9.5" fill="#8bb7c9">Python simulation · interactive Three.js dashboard</text>
-</g>
-<text x="646" y="642" font-family="Consolas,monospace" font-size="8.5" fill="#8bb7c9">REPOSITORIES <tspan fill="#00e6a0">13 PROJECT SPACES</tspan></text>
-<text x="1196" y="642" text-anchor="end" font-family="Consolas,monospace" font-size="8.5" fill="#8bb7c9">PROFILE / REWORKED</text>
-<g fill="#00f5f1" opacity=".9"><circle cx="595" cy="159" r="1.7"><animate attributeName="cy" values="159;172;159" dur="5s" repeatCount="indefinite"/></circle><circle cx="1207" cy="185" r="1.6"><animate attributeName="opacity" values=".1;1;.1" dur="3s" repeatCount="indefinite"/></circle></g>
+<text x="571" y="562" font-family="Consolas,monospace" font-size="10" fill="#00f5e9">pratham@developer:~$ <tspan fill="#00e6a0">█<animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></tspan></text>
+<text x="1148" y="562" text-anchor="end" font-family="Consolas,monospace" font-size="8.5" fill="#8ab6c5">PROFILE / CYBERSECURITY</text>
+<g fill="#00f5e9" opacity=".9"><circle cx="533" cy="128" r="1.6"><animate attributeName="cy" values="128;145;128" dur="4s" repeatCount="indefinite"/></circle><circle cx="1158" cy="154" r="1.5"><animate attributeName="opacity" values=".1;1;.1" dur="2.7s" repeatCount="indefinite"/></circle></g>
 </svg>
